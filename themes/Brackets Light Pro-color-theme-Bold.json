@@ -25,21 +25,21 @@
       "name": "Comment",
       "scope": "comment",
       "settings": {
-        "foreground": "#10a567"
+        "foreground": "#7e8584"
       }
     },
     {
       "name": "String",
       "scope": "string",
       "settings": {
-        "foreground": "#e88501"
+        "foreground": "#08a4bf"
       }
     },
     {
       "name": "Keyword",
       "scope": "keyword",
       "settings": {
-        "foreground": "#386ac3"
+        "foreground": "#d90b55"
       }
     },
     {
@@ -60,7 +60,7 @@
       "name": "Storage",
       "scope": "storage",
       "settings": {
-        "foreground": "#386ac3"
+        "foreground": "#6c65ed"
       }
     },
     {
@@ -74,21 +74,21 @@
       "name": "Library function",
       "scope": "support.function",
       "settings": {
-        "foreground": "#386ac3"
+        "foreground": "#6c65ed"
       }
     },
     {
       "name": "Function argument",
       "scope": "variable.parameter",
       "settings": {
-        "foreground": "#e06c75"
+        "foreground": "#f49018"
       }
     },
     {
       "name": "Number",
       "scope": "constant.numeric",
       "settings": {
-        "foreground": "#6d8600"
+        "foreground": "#a222d4"
       }
     },
     {
@@ -131,7 +131,7 @@
       "name": "Tag name",
       "scope": "entity.name.tag",
       "settings": {
-        "foreground": "#386ac3"
+        "foreground": "#6c65ed"
       }
     },
     {
@@ -473,21 +473,21 @@
       "name": "parameter function",
       "scope": "function.parameter",
       "settings": {
-        "foreground": "#e06c75"
+        "foreground": "#de4955"
       }
     },
     {
       "name": "parameter function",
       "scope": "function.parameter",
       "settings": {
-        "foreground": "#e06c75"
+        "foreground": "#de4955"
       }
     },
     {
       "name": "js/ts Keyword new",
       "scope": "keyword.oper",
       "settings": {
-        "foreground": "#e06c75"
+        "foreground": "#de4955"
       }
     },
     {
@@ -509,7 +509,7 @@
       "name": "JSON Key",
       "scope": "support.type.property-name.json",
       "settings": {
-        "foreground": "#386ac3"
+        "foreground": "#4b3bbf"
       }
 		},
 		{
@@ -523,14 +523,14 @@
         "name": "Classes",
         "scope": "entity.name.type.namespace",
         "settings": {
-            "foreground": "#5978f3"
+            "foreground": "#163fe4"
         }
     },
     {
         "name": "Type Name",
         "scope": "entity.name.type",
         "settings": {
-            "foreground": "#163fe4"
+            "foreground": "#ec70c1"
         }
     },
     {
@@ -570,17 +570,13 @@
       }
     },
     {
-      "name": "Functions",
-      "scope": [
-        "entity.name.function",
-        "meta.require",
-        "support.function.any-method",
-        "variable.function"
-      ],
-      "settings": {
-        "fontStyle": "bold"
-      }
-    },
+			"name": "Function name",
+			"scope": "entity.name.function",
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#ec70c1"
+			}
+		},
     {
       "name": "Classes",
       "scope": "entity.name.type.namespace",
@@ -608,6 +604,28 @@
       "settings": {
         "fontStyle": "bold"
       }
-    }
+    },
+    {
+			"name": "this.self",
+			"scope": "variable.language",
+			"settings": {
+				"foreground": "#f49018"
+			}
+    },
+    {
+			"name": "Library class/type",
+			"scope": "support.type, support.class",
+			"settings": {
+				"foreground": "#6c65ed"
+			}
+    },
+    {
+			"name": "Inherited class",
+			"scope": "entity.other.inherited-class",
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#ec70c1"
+			}
+		}
   ]
 }
