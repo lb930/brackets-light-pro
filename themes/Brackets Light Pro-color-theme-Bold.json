@@ -102,8 +102,8 @@
       "name": "User-defined constant",
       "scope": "constant.other",
       "settings": {
-        "fontStyle": "italic",
-        "foreground": "#e88501"
+        "fontStyle": "",
+        "foreground": ""
       }
     },
     {
@@ -626,6 +626,13 @@
 				"fontStyle": "",
 				"foreground": "#ec70c1"
 			}
-		}
+    },
+    {
+      "name": "python function-call.generic",
+      "scope": "meta.function-call.generic.python",
+      "settings": {
+        "foreground": "#6c65ed"
+      }
+    }
   ]
 }
